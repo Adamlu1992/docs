@@ -358,7 +358,7 @@ $('a').buttonLoading(false);
 |  autoRedirect  | `bool` | `false` |  保存成功后自动跳转 |
 |  autoRemoveError  |`bool`  | true | 当表单值发生变化时自动移除表单错误信息  |
 |  before  | `function` |  |  表单提交之前事件，返回`false`可以阻止表单继续提交 |
-|  after  | `function` |  |  单提交之后事件(不论成功还是失败都会触发)，返回`false`可以中止后续逻辑 |
+|  after  | `function` |  |  表单提交之后事件(不论成功还是失败都会触发)，返回`false`可以中止后续逻辑 |
 |  success  | `function` |  | 成功事件（接口返回状态码为`200`则判断为成功），返回`false`可以中止后续逻辑  |
 |   error | `function` |  | 失败事件（接口返回状态码非`200`则判断为失败），返回`false`可以中止后续逻辑  |
 
